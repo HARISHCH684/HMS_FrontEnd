@@ -1,0 +1,26 @@
+<div class="container">
+    <button type="button" (click)="button()"> get data</button>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>PatientId</th>
+            <th>PatientName</th>
+            <th>Age</th>
+            <th>Address</th>
+            <th>PhoneNumber</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let patient of patients">
+            <td>{{patient.patientId}}</td>
+            <td>{{patient.patientName}}</td>
+            <td>{{patient.age}}</td>
+            <td>{{patient.address}}</td>
+            <td>{{patient.phoneNo}}</td>
+        </tr>
+    </tbody>
+
+</table>
+
+</div>
