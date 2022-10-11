@@ -1,3 +1,15 @@
 .container{
     text-align: center;
 }
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+  } 
+  
+  th,td {
+    border: 1px solid black;
+  }
+table.c {
+    table-layout: auto;
+    width: auto;  
+  }
